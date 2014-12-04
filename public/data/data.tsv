@@ -1,0 +1,88 @@
+NAME	CATEGORY	AUTHORS	LOCATION	NEUTRAL	POLAR	POLAR POS	POLAR NEG	Index	Major
+Unsupervised and Supervised Machine Learning in User Modeling for Intelligent Learning Environments 	Machine Learning	Saleema Amershi	University of British Columbia	0.2	0.8	0.6	0.4	1	Computer Science
+Toward harnessing user feedback for machine learning	Machine Learning	Simone Stumpf	Oregon State University	0.2	0.8	0.6	0.4	2	Computer Science
+Interactive machine learning	Machine Learning	Jerry Allen Fails	Brigham Young University	0.2	0.8	0.6	0.4	3	Computer Science
+Real-Time Collaborative Filtering Using Extreme Learning Machine	Machine Learning	Wanyu Deng	Xian Jiao Tong University	0.2	0.8	0.6	0.4	4	Computer Science
+User interface adaptation based on user feedback and machine learning	Machine Learning	Nesrine Mezhoudi 	Université catholique de Louvain 	0.9	0.1			5	Computer Science
+Supporting Customer Searches in E-marketplaces by Means of Fuzzy Logic-Based Machine Learning	Machine Learning	J. Albusac	Universidad de Castilla-La Mancha	0.8	0.2			6	Computer Science
+An ontology-based interface for machine learning	Machine Learning	Mathias Bauer	German Research Center for Artificial Intelligence (DFKI) 	0.5	0.5	0.6	0.4	7	Computer Science
+Designing social choice mechanisms using machine learning	Machine Learning	Lirong Xia	Harvard University	0.5	0.5			8	Computer Science
+Ranking Web Pages Using Machine Learning Approaches	Machine Learning	Sweah Liang Yong	University of Wollongong	0.2	0.8	0.8	0.2	9	Computer Science
+A comparison of machine learning techniques for modeling human-robot interaction with children with autism	Machine Learning	Elaine Short	University of Southern California	0.8	0.2			10	Computer Science
+Storytelling: Next Step for Visualization	Visualization	Robert Kosara	Tableu Software	0.2	0.8	0.6	0.4	11	Computer Science
+Social Mirrors as Social Signals: Transforming Audio into Graphics	Visualization	Karrie Karahalios	University of Illinois	0.2	0.8	0.6	0.4	12	Computer Science
+Visualizing Real-Time Language-Based Feedback on Teamwork Behavior in Computer-Mediated Groups	Visualization	Gilly Leshed	Cornell University	0.2	0.8	0.6	0.4	13	Computer Science
+The kinetic typography engine: an extensible system for animating expressive text	Visualization	Johnny Lee	Carnegie Mellon University	0.2	0.8	0.7	0.3	14	Computer Science
+Opinion mining and sentiment analysis	Visualization	Bo Pang	Cornell University	0.2	0.8	0.6	0.4	15	Computer Science
+In Situ Speech Visualization in Real-Time Interactive Installation and Performance	Visualization	Golan Levin	Carnegie Mellon University	0.2	0.8	0.8	0.2	16	Computer Science
+What Makes a Visualization Memorable	Visualization	Michelle A. Borkin	Massachusetts Institute of Technology	0.2	0.8	0.6	0.4	17	Computer Science
+The Benefits of Facebook ‘‘Friends:’’ Social Capital and College Students’ Use of Online Social Network Sites	Visualization	Nicole Ellison	Michigan State University	0.9	0.1			18	Computer Science
+MUSE: Reviving Memories Using Email Archives	Visualization	Sudheendra Hangal	Stanford University	0.5	0.5			19	Computer Science
+Measuring the Leakage of Onion at the Root: A measurement of Tor's .onion pseudo-TLD in the global domain name system	Security	Matthew Thomas	Verisign Lab	0.8	0.2			20	Computer Science
+Citizen Electronic Identities using TPM 2.0	Security	Thomas Nyman	Aalto University and University of Helsinki	0.9	0.1			21	Computer Science
+Information revelation and privacy in online social networks	Security	Ralph Gross	Carnegie Mellon University	0.9	0.1			22	Computer Science
+Founding Digital Currency on Secure Computation	Security	Karim El Defrawy	HRL Laboratories	0.9	0.1			23	Computer Science
+A survey of mobile malware in the wild	Security	Adrienne Porter Felt	University of California Berkeley	0.9	0.1			24	Computer Science
+The geometry of innocent flesh on the bone: return-into-libc without function calls (on the x86)	Security	Hovav Shacham	University of California San Diego	0.5	0.5			25	Computer Science
+On the effectiveness of address-space randomization	Security	Horav Shacham	Stanford University	0.2	0.8	0.6	0.4	26	Computer Science
+Controlling data in the cloud: outsourcing computation without outsourcing control	Security	Richard Chow	PARC	0.6	0.4			27	Computer Science
+Hypervision Across Worlds: Real-time Kernel Protection from the ARM TrustZone Secure World	Security	Ahmed M. Azab	Samsung Research America	0.8	0.2			28	Computer Science
+Characterizing hypervisor vulnerabilities in cloud computing servers	Security	Diego Perez-Botero	Princeton University	0.9	0.1			29	Computer Science
+Stress-Induced Cellular Transcription Factors Expressed in Trigeminal	Cellular	0.9	0.1	0	0			1	Biology
+Cellular transcription factor YY1 mediates the varicella-zoster virus (VZV) IE62 transcriptional activation	Cellular	0.9	0.1	0	0			2	Biology
+A Coordinated Global Control over Cellular Transcription	Cellular	0.8	0.2	0	0			3	Biology
+Abstract 2358: Dissecting the cellular response to cisplatin from RNA transcription to translationTwo MicroRNAs Encoded within the Bovine Herpesvirus 1 Latency-Related Gene Promote Cell Survival by Interacting with RIG-I and Stimulating NF-κB-Dependent Transcription and Beta Interferon Signaling Pathways	Cellular	0.8	0.2	0	0			4	Biology
+Phosphorylation of a PDZ Domain Extension Modulates Density-95 (PSD-95) Protein, a Membrane-associated	Cellular	0.2	0.8	0.5	0.5			5	Biology
+An Introduction to Metabolomics and Systems Biology	Cellular	0.2	0.8	0.4	0.6			6	Biology
+Postconditioning and protection from reperfusion injury: where do we stand?Position Paper from the Working Group of Cellular Biology of the Heart of the European Society of Cardiology 	Cellular	0.8	0.2	0	0			7	Biology
+Molecular and cellular biology of neuroendocrine lung tumors: Evidence for separate biological entities	Cellular	0.5	0.5	0	0			8	Biology
+A 29-Year-Old Man with Abdominal Pain, Fever, and Weight Loss	Case Study	0.9	0.1	0	0			9	Biology
+A 41-Year-Old Man with Fevers, Rash, Pancytopenia, and Abnormal Liver Function	Case Study	0.9	0.1	0	0			10	Biology
+A 54-Year-Old Man with Visual-Field Loss and a Mass in the Brain	Case Study	0.7	0.1	0	0			11	Biology
+ A 34-Year-Old HIV-Positive Woman Who Desired to Become Pregnant	Case Study	0.8	0.2	0	0			12	Biology
+A 47-Year-Old Man with Fever, Headache, Rash, and Vomiting	Case Study	0.8	0.2	0	0			13	Biology
+A 45-Year-Old Man with Sudden Onset of Abdominal Pain and Hypotension	Case Study	0.9	0.1	0	0			14	Biology
+A 78-Year-Old Woman with Chronic Sore Throat and a Tonsillar Mass	Case Study	0.9	0.1	0	0			15	Biology
+A 6.5-Month-Old Boy with Fever, Rash, and Cytopenias	Case Study	0.7	0.1	0	0			16	Biology
+A 32-Year-Old Woman with HER2-Positive Breast Cancer	Case Study	0.4	0.6	0.3	0.7			17	Biology
+A 69-Year-Old Chronically Ill Man with Weakness, Anorexia, and Diffuse Pain	Case Study	0.7	0.1	0	0			18	Biology
+A Trial of Intracranial-Pressure Monitoring in Traumatic Brain Injury	Neurology	0.8	0.2	0	0			19	Biology
+Controlled Trial of Transfusions for Silent Cerebral Infarcts in Sickle Cell Anemia	Neurology	0.8	0.2	0	0			20	Biology
+Valproic Acid Monotherapy in Pregnancy and Major Congenital Malformations	Neurology	0.8	0.2	0	0			21	Biology
+A Novel Prion Disease Associated with Diarrhea and Autonomic Neuropathy	Neurology	0.7	0.1	0	0			22	Biology
+Somatic Mutations in Cerebral Cortical Malformations	Neurology	0.6	0.4	0	0			23	Biology
+A Randomized Trial of Bevacizumab for Newly Diagnosed Glioblastoma	Neurology	0.9	0.1	0	0			24	Biology
+Two Phase 3 Trials of Bapineuzumab in Mild-to-Moderate Alzheimer's Disease	Neurology	0.8	0.2	0	0			25	Biology
+Placebo-Controlled Phase 3 Study of Oral BG-12 for Relapsing Multiple Sclerosis	Neurology	0.8	0.2	0	0			26	Biology
+Mild Traumatic Brain Injury in U.S. Soldiers Returning from Iraq	Neurology	0.7	0.1	0	0			27	Biology
+Long-Term Results of Carotid Stenting versus Endarterectomy in High-Risk Patients	Neurology	0.7	0.1	0	0			28	Biology
+The Latest on the Best - Essays on Evolution and Optimality	Evolutionary	Leda Cosmides and John Tooby 	MIT	0.2	0.8	0.6	0.4	1	Psychology
+The Evolutionary Psychology of Facial Beauty	Evolutionary	Gillian Rhodes	University of Western Australia	0.2	0.8	0.6	0.4	2	Psychology
+Developmental Dynamics: Toward a Biologically Plausible Evolutionary Psychology	Evolutionary	Robert Lickliter	Florida International University	0.2	0.8	0.8	0.2	3	Psychology
+Evolutionary Psychology: A Primer	Evolutionary	Leda Cosmides and John Tooby	University of California Santa Barbara	0.5	0.5			4	Psychology
+Life History Theory and Evolutionary Psychology	Evolutionary	Hillard S. Kaplan and Steven W. Gangestad	University of New Mexico	0.2	0.8	0.5	0.5	5	Psychology
+Evolutionary psychology and the brain	Evolutionary	Bradley Duchaine, Leda Cosmides and John Tooby	 University of California Santa Barbara	0.9	0.1			6	Psychology
+Evolutionary Psychology Controversies, Questions, Prospects, and Limitations	Evolutionary	Jaime C. Confer, Judith A. Easton, Diana S. Fleischman, Cari D. Goetz, David M. G. Lewis, Carin Perilloux, and David M. Buss	University of Texas at Austin	0.9	0.1			7	Psychology
+EVOLUTIONARY PSYCHOLOGY: Toward a Unifying Theory and a Hybrid Science	Evolutionary	Linnda R. Caporael	Rensselaer Polytechnic Institute	0.2	0.8	0.8	0.2	8	Psychology
+Human evolutionary psychology and animal behaviour	Evolutionary	Martin Daly and Margo I. Wilson	McMaster University	0.2	0.8	0.7	0.3	9	Psychology
+The cognitive and evolutionary psychology of religion	Evolutionary	Joseph Bulbulia	Victoria University	0.3	0.7	0.6	0.4	10	Psychology
+The Social Psychology of Organizations	Social	Daniel Katz and Robert L. Kahn	University of Michigan	0.2	0.8	0.6	0.4	11	Psychology
+Social Psychology As History	Social	Kenneth J. Gergen	Swarthmore College	0.2	0.8	0.6	0.4	12	Psychology
+The Social Psychology of Stigma	Social	Brenda Major and Laurie T. O'Brien	University of California Santa Barbara	0.9	0.1			13	Psychology
+Contending With Group Image: The Psychology of Stereotype and Social Identity Threat	Social	Claude M. Steele, Steven J. Spencer, Joshua Aronson		0.2	0.8	0.6	0.4	14	Psychology
+The Yin and Yang of Progress in Social Psychology	Social	Seven Koan and William J. McGuire	Yale University	0.2	0.8	0.6	0.4	15	Psychology
+The Social Psychology of Self-Efficacy	Social	Viktor Gecas	Washington State University	0.2	0.8	0.9	0.1	16	Psychology
+Health, community and development: towards a social psychology of participation	Social	Catherine Campbell and Sandra Jovchelovitch	London School of Economics	0.2	0.8	0.9	0.1	17	Psychology
+Social Psychology of Identities	Social	Judith A. Howard	University of Washington	0.2	0.8	0.9	0.1	18	Psychology
+Toward a Social Psychology of Loneliness	Social	Daniel Perlman and Letitia Anne Peplau 		0.7	0.3			19	Psychology
+Social Psychology and Science: Some Lessons From Solomon Asch	Social	Paul Rozin	University of Pennsylvania	0.2	0.8	0.6	0.4	20	Psychology
+Processing capacity defined by relational complexity: Implications for comparative, developmental, and cognitive psychology	Cognitive	Graeme S. Halford, William H. Wilson, and Steven Phillips	University of Queensland	0.9	0.1			21	Psychology
+The Multi-Component Model of Working Memory: Explorations in Experimental Cognitive Psychology	Cognitive	G. Repovs and A. Baddeley	Washington University	0.2	0.8	0.6	0.4	22	Psychology
+Cognitive Psychology and Optimal Government Design	Cognitive	Jeffrey J. Rachlinski and Cynthia R. Farina	Cornell University	0.5	0.5			23	Psychology
+Relations between Cognitive Psychology and Computer System Design	Cognitive	Thomas K. Landauer	MIT	0.2	0.8	0.6	0.4	24	Psychology
+Improving Construct Validity With Cognitive Psychology Principles	Cognitive	Susan Embretson and Joanna Gorin	University of Kansas	0.2	0.8	0.6	0.4	25	Psychology
+Attention Metaphors: How Metaphors Guide the Cognitive Psychology of Attention	Cognitive	Diego Fernandez-Duque and Mark L. Johnson	University of Oregon	0.9	0.1			26	Psychology
+Cognitive Psychology Meets the National Survey	Cognitive	Elizabeth F. Loftus, Stephen E. Fienberg, and Judith M. Tanur	University of Washington	0.5	0.5			27	Psychology
+Why the cognitive approach in psychology would profit from a functional approach and vice versa	Cognitive	Jan De Houwer	Ghent University	0.2	0.8	0.6	0.4	28	Psychology
+Imagery Paradigms For Consumer Research: Alternative Perspectives From Cognitive Psychology	Cognitive	Terry L. Childers and Michael J. Houston	University of Minnesota	0.3	0.7	0.6	0.4	29	Psychology
+Securities Regulation in an Electronic Age: The Impact of Cognitive Psychology	Cognitive	Robert B. Thompson	Washington University	0.9	0.1			30	Psychology
