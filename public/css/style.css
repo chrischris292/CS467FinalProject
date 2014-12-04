@@ -2,6 +2,15 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300italic);
 body{
 	margin:0px;
+		font-family: 'Brawler', serif;
+
+}
+.other{
+	background-color:black;
+}
+#map_election{
+	height:500px;
+	width:700px;
 }
 .headerContainer{
 	width:100%;
@@ -15,19 +24,21 @@ body{
   color:white;
 }
 .container{
-	max-width:800px;
-	margin:auto;
-	padding-top:100px;
+	max-width:700px;
+	margin: 0 auto;
+}
+.headerContainer>.container{
+	padding-top:15%;
 }
 h1{
 	font-size:40px;
-	font-family: 'Brawler', serif;
 	text-align:center;
 }
 .subTitle{
 	text-align:center;
 	font-size:30px;
 	margin-top:30px;
+	margin-bottom:30px;
 }
 line{
 	max-width: 300px;
@@ -53,4 +64,16 @@ line{
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 
+}
+.chord path {
+  fill-opacity: .67;
+  stroke: #000;
+  stroke-width: .5px;
+}
+#chord{
+	margin-top:30px;
+	margin-bottom:30px;
+}
+p{
+	text-align:center;
 }
