@@ -28,34 +28,34 @@ On the effectiveness of address-space randomization	Security	Horav Shacham	Stanf
 Controlling data in the cloud: outsourcing computation without outsourcing control	Security	Richard Chow	PARC	0.6	0.4			27	Computer Science
 Hypervision Across Worlds: Real-time Kernel Protection from the ARM TrustZone Secure World	Security	Ahmed M. Azab	Samsung Research America	0.8	0.2			28	Computer Science
 Characterizing hypervisor vulnerabilities in cloud computing servers	Security	Diego Perez-Botero	Princeton University	0.9	0.1			29	Computer Science
-Stress-Induced Cellular Transcription Factors Expressed in Trigeminal	Cellular	0.9	0.1	0	0			1	Biology
-Cellular transcription factor YY1 mediates the varicella-zoster virus (VZV) IE62 transcriptional activation	Cellular	0.9	0.1	0	0			2	Biology
-A Coordinated Global Control over Cellular Transcription	Cellular	0.8	0.2	0	0			3	Biology
-Abstract 2358: Dissecting the cellular response to cisplatin from RNA transcription to translationTwo MicroRNAs Encoded within the Bovine Herpesvirus 1 Latency-Related Gene Promote Cell Survival by Interacting with RIG-I and Stimulating NF-κB-Dependent Transcription and Beta Interferon Signaling Pathways	Cellular	0.8	0.2	0	0			4	Biology
-Phosphorylation of a PDZ Domain Extension Modulates Density-95 (PSD-95) Protein, a Membrane-associated	Cellular	0.2	0.8	0.5	0.5			5	Biology
-An Introduction to Metabolomics and Systems Biology	Cellular	0.2	0.8	0.4	0.6			6	Biology
-Postconditioning and protection from reperfusion injury: where do we stand?Position Paper from the Working Group of Cellular Biology of the Heart of the European Society of Cardiology 	Cellular	0.8	0.2	0	0			7	Biology
-Molecular and cellular biology of neuroendocrine lung tumors: Evidence for separate biological entities	Cellular	0.5	0.5	0	0			8	Biology
-A 29-Year-Old Man with Abdominal Pain, Fever, and Weight Loss	Case Study	0.9	0.1	0	0			9	Biology
-A 41-Year-Old Man with Fevers, Rash, Pancytopenia, and Abnormal Liver Function	Case Study	0.9	0.1	0	0			10	Biology
-A 54-Year-Old Man with Visual-Field Loss and a Mass in the Brain	Case Study	0.7	0.1	0	0			11	Biology
- A 34-Year-Old HIV-Positive Woman Who Desired to Become Pregnant	Case Study	0.8	0.2	0	0			12	Biology
-A 47-Year-Old Man with Fever, Headache, Rash, and Vomiting	Case Study	0.8	0.2	0	0			13	Biology
-A 45-Year-Old Man with Sudden Onset of Abdominal Pain and Hypotension	Case Study	0.9	0.1	0	0			14	Biology
-A 78-Year-Old Woman with Chronic Sore Throat and a Tonsillar Mass	Case Study	0.9	0.1	0	0			15	Biology
-A 6.5-Month-Old Boy with Fever, Rash, and Cytopenias	Case Study	0.7	0.1	0	0			16	Biology
-A 32-Year-Old Woman with HER2-Positive Breast Cancer	Case Study	0.4	0.6	0.3	0.7			17	Biology
-A 69-Year-Old Chronically Ill Man with Weakness, Anorexia, and Diffuse Pain	Case Study	0.7	0.1	0	0			18	Biology
-A Trial of Intracranial-Pressure Monitoring in Traumatic Brain Injury	Neurology	0.8	0.2	0	0			19	Biology
-Controlled Trial of Transfusions for Silent Cerebral Infarcts in Sickle Cell Anemia	Neurology	0.8	0.2	0	0			20	Biology
-Valproic Acid Monotherapy in Pregnancy and Major Congenital Malformations	Neurology	0.8	0.2	0	0			21	Biology
-A Novel Prion Disease Associated with Diarrhea and Autonomic Neuropathy	Neurology	0.7	0.1	0	0			22	Biology
-Somatic Mutations in Cerebral Cortical Malformations	Neurology	0.6	0.4	0	0			23	Biology
-A Randomized Trial of Bevacizumab for Newly Diagnosed Glioblastoma	Neurology	0.9	0.1	0	0			24	Biology
-Two Phase 3 Trials of Bapineuzumab in Mild-to-Moderate Alzheimer's Disease	Neurology	0.8	0.2	0	0			25	Biology
-Placebo-Controlled Phase 3 Study of Oral BG-12 for Relapsing Multiple Sclerosis	Neurology	0.8	0.2	0	0			26	Biology
-Mild Traumatic Brain Injury in U.S. Soldiers Returning from Iraq	Neurology	0.7	0.1	0	0			27	Biology
-Long-Term Results of Carotid Stenting versus Endarterectomy in High-Risk Patients	Neurology	0.7	0.1	0	0			28	Biology
+Stress-Induced Cellular Transcription Factors Expressed in Trigeminal	Cellular	Devis Sinani, Ethan Cordes, Aspen Workman, Prasanth Thunuguntia, Clinton Jones	University of Nebraska	0.9	0.1	0	0	1	Biology
+Cellular transcription factor YY1 mediates the varicella-zoster virus (VZV) IE62 transcriptional activation	Cellular	Mohamed I. Khalil	Stanford University	0.9	0.1	0	0	2	Biology
+A Coordinated Global Control over Cellular Transcription	Cellular	Jacob Zhurinsky	Rockefeller University	0.8	0.2	0	0	3	Biology
+Abstract 2358: Dissecting the cellular response to cisplatin from RNA transcription to translationTwo MicroRNAs Encoded within the Bovine Herpesvirus 1 Latency-Related Gene Promote Cell Survival by Interacting with RIG-I and Stimulating NF-κB-Dependent Transcription and Beta Interferon Signaling Pathways	Cellular	Leticia Frizzo da Silva and Clinton Jones	University of Nebraska	0.8	0.2	0	0	4	Biology
+Phosphorylation of a PDZ Domain Extension Modulates Density-95 (PSD-95) Protein, a Membrane-associated	Cellular	Jun Zhang	University of North Carolina	0.2	0.8	0.5	0.5	5	Biology
+An Introduction to Metabolomics and Systems Biology	Cellular			0.2	0.8	0.4	0.6	6	Biology
+Postconditioning and protection from reperfusion injury: where do we stand?Position Paper from the Working Group of Cellular Biology of the Heart of the European Society of Cardiology 	Cellular	Michel Ovize, Gary F. Baxter, Fabio Di Lisa	Oxford University	0.8	0.2	0	0	7	Biology
+Molecular and cellular biology of neuroendocrine lung tumors: Evidence for separate biological entities	Cellular	Dorian R.A. Swarts	University Medical Center, Maastricht, The Netherlands	0.5	0.5	0	0	8	Biology
+A 29-Year-Old Man with Abdominal Pain, Fever, and Weight Loss	Case Study	Howard M. Heller, M.D., M.P.H., Carol C. Wu, M.D., Virginia M. Pierce, M.D., and Richard L. Kradin, M.D.		0.9	0.1	0	0	9	Biology
+A 41-Year-Old Man with Fevers, Rash, Pancytopenia, and Abnormal Liver Function	Case Study	Christine M. Hay, M.D., Jo-Anne O. Shepard, M.D., Emily P. Hyle, M.D., and Lyn M. Duncan, M.D.		0.9	0.1	0	0	10	Biology
+A 54-Year-Old Man with Visual-Field Loss and a Mass in the Brain	Case Study	Tracy T. Batchelor, M.D., A. Gregory Sorensen, M.D., and David N. Louis, M.D.		0.7	0.1	0	0	11	Biology
+ A 34-Year-Old HIV-Positive Woman Who Desired to Become Pregnant	Case Study	Laura E. Riley, M.D., and Sigal Yawetz, M.D.		0.8	0.2	0	0	12	Biology
+A 47-Year-Old Man with Fever, Headache, Rash, and Vomiting	Case Study	Sigall K. Bell, M.D., and Eric S. Rosenberg, M.D.		0.8	0.2	0	0	13	Biology
+A 45-Year-Old Man with Sudden Onset of Abdominal Pain and Hypotension	Case Study	Marc A. de Moya, M.D., Andrew T. Reisner, M.D., Glenn M. LaMuraglia, M.D., and Sanjeeva P. Kalva, M.D.		0.9	0.1	0	0	14	Biology
+A 78-Year-Old Woman with Chronic Sore Throat and a Tonsillar Mass	Case Study	Marlene L. Durand, M.D., Derrick T. Lin, M.D., Amy F. Juliano, M.D.		0.9	0.1	0	0	15	Biology
+A 6.5-Month-Old Boy with Fever, Rash, and Cytopenias	Case Study	Shuba R. Iyengar, M.D., M.P.H., David H. Ebb, M.D., Qian Yuan, M.D., Ph.D		0.7	0.1	0	0	16	Biology
+A 32-Year-Old Woman with HER2-Positive Breast Cancer	Case Study	José Baselga, M.D., Ph.D., Barbara Lynn Smith, M.D., Ph.D., Elizabeth A. Rafferty, M.D., and Alessandro Bombonati, M.D.	University of Michigan School of Medicine	0.4	0.6	0.3	0.7	17	Biology
+A 69-Year-Old Chronically Ill Man with Weakness, Anorexia, and Diffuse Pain	Case Study	Jeffrey L. Greenwald, M.D., Shaunagh McDermott, M.D., and Anand S. Dighe, M.D., Ph.D.		0.7	0.1	0	0	18	Biology
+A Trial of Intracranial-Pressure Monitoring in Traumatic Brain Injury	Neurology	Randall M. Chesnut, M.D., Nancy Temkin, Ph.D., Nancy Carney, Ph.D	Global Neurotrauma Research Group	0.8	0.2	0	0	19	Biology
+Controlled Trial of Transfusions for Silent Cerebral Infarcts in Sickle Cell Anemia	Neurology	Michael R. DeBaun, M.D., M.P.H., Mae Gordon, Ph.D., Robert C. McKinstry, M.D., Ph.D., Michael J. Noetzel, M.D.,		0.8	0.2	0	0	20	Biology
+Valproic Acid Monotherapy in Pregnancy and Major Congenital Malformations	Neurology	Janneke Jentink, M.Sc., Maria A. Loane, M.Sc., Helen Dolk, Dr.P.H., Ingeborg Barisic, Dr.P.H., Ester Garne, M.D., Joan K. Morris, Ph.D., and Lolkje T.W. de Jong-van den Berg, Ph.D.		0.8	0.2	0	0	21	Biology
+A Novel Prion Disease Associated with Diarrhea and Autonomic Neuropathy	Neurology	Simon Mead, M.D., Sonia Gandhi, M.D., Jon Beck, B.Sc., Diana Caine, Ph.D., Dilip Gajulapalli, M.D., Christopher Carswell, M.D.		0.7	0.1	0	0	22	Biology
+Somatic Mutations in Cerebral Cortical Malformations	Neurology	Saumya S. Jamuar, M.R.C.P.C.H., Anh-Thu N. Lam, B.S., Martin Kircher, Ph.D., Alissa M. D’Gama, B.A., Jian Wang, Ph.D., Brenda J. Barry, M.S., Xiaochang Zhang, Ph.D., Robert Sean Hill, Ph.D.		0.6	0.4	0	0	23	Biology
+A Randomized Trial of Bevacizumab for Newly Diagnosed Glioblastoma	Neurology	Mark R. Gilbert, M.D., James J. Dignam, Ph.D., Terri S. Armstrong, Ph.D., A.N.P.-B.C.,		0.9	0.1	0	0	24	Biology
+Two Phase 3 Trials of Bapineuzumab in Mild-to-Moderate Alzheimer's Disease	Neurology	Stephen Salloway, M.D., Reisa Sperling, M.D., Nick C. Fox, M.D., Kaj Blennow, M.D.		0.8	0.2	0	0	25	Biology
+Placebo-Controlled Phase 3 Study of Oral BG-12 for Relapsing Multiple Sclerosis	Neurology	Ralf Gold, M.D., Ludwig Kappos, M.D., Douglas L. Arnold, M.D., Amit Bar-Or, M.D., Gavin Giovannoni, M.D., Krzysztof Selmaj, M.D., Carlo Tornatore, M.D., Marianne T. Sweetser, M.D.	Harvard Medicine	0.8	0.2	0	0	26	Biology
+Mild Traumatic Brain Injury in U.S. Soldiers Returning from Iraq	Neurology	Charles W. Hoge, M.D., Dennis McGurk, Ph.D., Jeffrey L. Thomas, Ph.D., Anthony L. Cox, M.S.W., Charles C. Engel, M.D., M.P.H., and Carl A. Castro, Ph.D.	Walter Reed Army Institute of Research	0.7	0.1	0	0	27	Biology
+Long-Term Results of Carotid Stenting versus Endarterectomy in High-Risk Patients	Neurology	Hitinder S. Gurm, M.D., Jay S. Yadav, M.D., Pierre Fayad, M.D., Barry T. Katzen, M.D., Gregory J. Mishkel, M.D.	University of Michigan School of Medicine	0.7	0.1	0	0	28	Biology
 The Latest on the Best - Essays on Evolution and Optimality	Evolutionary	Leda Cosmides and John Tooby 	MIT	0.2	0.8	0.6	0.4	1	Psychology
 The Evolutionary Psychology of Facial Beauty	Evolutionary	Gillian Rhodes	University of Western Australia	0.2	0.8	0.6	0.4	2	Psychology
 Developmental Dynamics: Toward a Biologically Plausible Evolutionary Psychology	Evolutionary	Robert Lickliter	Florida International University	0.2	0.8	0.8	0.2	3	Psychology
