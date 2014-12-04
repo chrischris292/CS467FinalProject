@@ -1,0 +1,44 @@
+@import url(http://fonts.googleapis.com/css?family=Brawler);
+@import url(http://fonts.googleapis.com/css?family=Lato:300italic);
+body{
+	margin:100px;
+}
+.container{
+	max-width:800px;
+	margin:auto;
+}
+h1{
+	font-size:40px;
+	font-family: 'Brawler', serif;
+	text-align:center;
+}
+.subTitle{
+	text-align:center;
+	font-size:30px;
+	margin-top:30px;
+}
+line{
+	max-width: 300px;
+	margin: 0 auto;
+	height: 1px;
+	background-color: #999;
+	outline:0;
+	display:block;
+}
+.authors{
+	font-size:15px;
+	color:#777;
+	margin-top:30px;
+	text-align:center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+}
+.date{
+	margin-top:3px;
+	font-size:15px;
+	color:#777;
+	text-align:center;
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+
+}
