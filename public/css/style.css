@@ -1,11 +1,23 @@
 @import url(http://fonts.googleapis.com/css?family=Brawler);
 @import url(http://fonts.googleapis.com/css?family=Lato:300italic);
 body{
-	margin:100px;
+	margin:0px;
+}
+.headerContainer{
+	width:100%;
+	height:100%;
+  background-image:url("../images/research.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size:auto 100%;
+  background-size: cover;
+  color:white;
 }
 .container{
 	max-width:800px;
 	margin:auto;
+	padding-top:100px;
 }
 h1{
 	font-size:40px;
@@ -21,13 +33,13 @@ line{
 	max-width: 300px;
 	margin: 0 auto;
 	height: 1px;
-	background-color: #999;
+	background-color: white;
 	outline:0;
 	display:block;
 }
 .authors{
 	font-size:15px;
-	color:#777;
+	color: rgba(255, 255, 255, 0.83);
 	margin-top:30px;
 	text-align:center;
 	font-family: 'Lato', sans-serif;
@@ -36,7 +48,7 @@ line{
 .date{
 	margin-top:3px;
 	font-size:15px;
-	color:#777;
+	color: rgba(255, 255, 255, 0.83);	
 	text-align:center;
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
