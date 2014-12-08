@@ -1,9 +1,9 @@
 {
-  "name": "socket.io-chat",
-  "version": "0.0.0",
-  "description": "A simple chat client using socket.io",
+  "name": "Research Paper Analysis Visualization",
+  "version": "0.1.0",
+  "description": "Analyzing the differences and potential bias between three types of academia",
   "main": "app.js",
-  "author": "Grant Timmerman",
+  "author": "Chris Chan, Shantanu Dev, Vinh Ha, and William Xie",
   "private": true,
   "license": "BSD",
   "dependencies": {
