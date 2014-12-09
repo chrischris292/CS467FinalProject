@@ -43,7 +43,7 @@
       { "Subject": "Psychology", "PolarType": "Positive", "Polar Percentage": 0.675 },
     ];
     var chartP = new dimple.chart(svgP, dataP);
-    chartP.setBounds(80, 30, 480, 330)
+    chartP.setBounds(100, 30, 480, 330)
     chartP.addPctAxis("x", "Polar Percentage");
     chartP.addCategoryAxis("y", "Subject");
     chartP.addSeries("PolarType", dimple.plot.bar);
@@ -76,27 +76,33 @@
 
     chart.draw();
 })*/
-    var svg = dimple.newSvg("#bubbleChart", 700, 400);
+    var svgB = dimple.newSvg("#bubbleChart", 700, 400);
     d3.tsv("../data/data.tsv", function (data) {
 
-    var chart = new dimple.chart(svg, data);
-    chart.addCategoryAxis("x", ["Index", "NEUTRAL"]);
-    chart.addMeasureAxis("y", "POLAR");
-    chart.addSeries(["NAME","AUTHORS","LOCATION", "POLAR POS", "POLAR NEG", "Major"], dimple.plot.bubble);
-    var myLegend = chart.addLegend(630, 100, 60, 300, "Right");
-
-    chart.draw();
+    var chartB = new dimple.chart(svgB, data);
+    chartB.addCategoryAxis("x", ["NEUTRAL", "Index"]);
+    chartB.addMeasureAxis("y", "POLAR");
+    chartB.addSeries(["NAME","AUTHORS","LOCATION", "POLAR POS", "POLAR NEG", "Major"], dimple.plot.bubble);
+    var myLegend = chartB.addLegend(800, 100, 60, 300, "Right");
+    chartB.draw();
+    svgB.append("text")
+   .attr("x", chartB._xPixels() + chartB._widthPixels() / 2)
+   .attr("y", chartB._yPixels() - 15)
+   .style("text-anchor", "middle")
+   .style("font-family", "Brawler")
+   .style("font-weight", "bold")
+   .text("Distribution of Research Papers By Polarity vs. Neutrality");
         
         // This is a critical step.  By doing this we orphan the legend. This
         // means it will not respond to graph updates.  Without this the legend
         // will redraw when the chart refreshes removing the unchecked item and
         // also dropping the events we define below.
-        chart.legends = [];
+        chartB.legends = [];
 
         // This block simply adds the legend title. I put it into a d3 data
         // object to split it onto 2 lines.  This technique works with any
         // number of lines, it isn't dimple specific.
-        svg.selectAll("title_text")
+        svgB.selectAll("title_text")
           .data(["Click legend to","show/hide owners:"])
           .enter()
           .append("text")
@@ -134,10 +140,10 @@
             // Update the filters
             filterValues = newFilters;
             // Filter the data
-            chart.data = dimple.filterData(data, "Major", filterValues);
+            chartB.data = dimple.filterData(data, "Major", filterValues);
             // Passing a duration parameter makes the chart animate. Without
             // it there is no transition
-            chart.draw(800);
+            chartB.draw(800);
           });
       });
 

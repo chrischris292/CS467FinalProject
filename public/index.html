@@ -17,7 +17,7 @@
     <div class = "container">
         <h1>Academic Research Paper Data Visualization</h1>
         <line></line>
-        <div class = "subTitle">Visualizing Written Style and Potential Bias</div>
+        <div class = "subTitle">Visualizing Written Style and Emotion in Research</div>
         <div class = "authors"> Christopher Chan, William Xie, Shantanu Dev, Vinh Ha</div>
         <div class = "date">CS 467- Social Visualization</div>
     </div>
@@ -41,14 +41,14 @@
     </p>
 
     <p>
-        Along with the neutrality score, there is a polarity score broken down into negative and positive polarity. The scores also range from 0 to 1, where 0 represents the least polar and 1 the most. The sum of the negative and positive polarity scores equal 1. For our analysis, we converted this number to a percentage to more easily compare the difference in sentiment.
+        Along with the neutrality score, there is a polarity score broken down into negative and positive polarity. The scores also range from 0 to 1, where 0 represents the least polar and 1 the most. The sum of the negative and positive polarity scores equal 1. Only papers that are deemed more polar than neutral are given a polarity score. For our analysis, we converted this number to a percentage to more easily compare the difference in sentiment.
     </p>
     <div id = "polarChart"></div>
     <p>
-        ANALYSIS
+        We see that for papers with polarity scores, there is mostly a positive sentiment involved, especially surrounding Psychology papers. In particular, a subcategory we chose for Psychology, Social Psychology, had high, positive polarity scores. Like most of the papers in that realm, it mostly deals with emotion and feelings which likely attributed to the higer percentage as seen. It is also interesting to see that the polar percentage of Biology research papers is relatively even when it is deemed polar. 
     </p>
     <div id = "bubbleChart"></div>
-    <p>Looking further into the bubble chart, we see that mostly Psychology papers were contained </p>
+    <p>Looking at the distribution of papers as a whole, we see that Psychology papers have a higher Polar to Neutral ratio compared to other subjects. The sentiment analysis tool rounds the polar values to the nearest tenths place, which is why we see incremental levels rather than exact numbers. It should also be noted that there does exist a linear correlation because the polar score + neutral score = 1.</p>
     <!--
     <h1>Maps</h1>
     <line class = "other"></line>
@@ -62,10 +62,17 @@
     <line class = "other"></line>
     <p>This is under construction to be added by Shantanu using the similarity tools.</p>
     <div id="chord"></div>
-    <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+    <p>
+        Relationships and similarities analysis would go here.
     </p>
 
-
+    <h1>Future Work</h1>
+    <line class = "other"></line>
+    <p>
+        We would love to see how this data matches up against an even larger data set and among other academic subjects as well. One subject in particular, History, would be interesting to analyze due to the subjectivity. Subcategories could be explored further for a certain subject. In our data, we noticed that research involving human computer interaction and data visualization had higher polarity scores than other subcategories in Computer Science, but with our data set we could not completely draw conclusions.
+    </p>
+    <line class = "other"></line>
+    <p>***</p>
 </div>
 </body>
 <script src="scripts/mapdep.js"></script>
