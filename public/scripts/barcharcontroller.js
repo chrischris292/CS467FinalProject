@@ -10,7 +10,11 @@
       myChart.draw();
     });*/
 
-    var svgN = dimple.newSvg("#neutralChart", 700, 600);
+    var clrCS = "#1f77b4";
+    var clrBio = "#d62728";
+    var clrPsy = "#31a354";
+
+    var svgN = dimple.newSvg("#neutralChart", 700, 700);
     var dataN = [
       { "Subject": "Computer Science", "Type": "Full Text", "Avg. Neutrality": 0.493 },
       { "Subject": "Computer Science", "Type": "Summarized", "Avg. Neutrality": 0.665 },
@@ -23,11 +27,11 @@
     chartN.addCategoryAxis("x", ["Subject", "Type"]);
     chartN.addMeasureAxis("y", "Avg. Neutrality");
     chartN.addSeries("Type", dimple.plot.bar);
-    chartN.addLegend(200, 40, 510, 20, "right");
+    chartN.addLegend(270, 40, 510, 20, "left");
     chartN.draw();
     svgN.append("text")
      .attr("x", chartN._xPixels() + chartN._widthPixels() / 2)
-     .attr("y", chartN._yPixels() - 20)
+     .attr("y", chartN._yPixels() - 50)
      .style("text-anchor", "middle")
      .style("font-family", "Brawler")
      .style("font-weight", "bold")
@@ -47,7 +51,7 @@
     chartP.addPctAxis("x", "Polar Percentage");
     chartP.addCategoryAxis("y", "Subject");
     chartP.addSeries("PolarType", dimple.plot.bar);
-    chartP.addLegend(220, 25, 380, 20, "right");
+    chartP.addLegend(280, 25, 380, 20, "left");
     chartP.draw();
     svgP.append("text")
    .attr("x", chartP._xPixels() + chartP._widthPixels() / 2)
@@ -76,18 +80,18 @@
 
     chart.draw();
 })*/
-    var svgB = dimple.newSvg("#bubbleChart", 700, 400);
+    var svgB = dimple.newSvg("#bubbleChart", 700, 900);
     d3.tsv("../data/data.tsv", function (data) {
 
     var chartB = new dimple.chart(svgB, data);
-    chartB.addCategoryAxis("x", ["NEUTRAL", "Index"]);
+    chartB.addCategoryAxis("x", ["Index", "NEUTRAL"]);
     chartB.addMeasureAxis("y", "POLAR");
     chartB.addSeries(["NAME","AUTHORS","LOCATION", "POLAR POS", "POLAR NEG", "Major"], dimple.plot.bubble);
-    var myLegend = chartB.addLegend(800, 100, 60, 300, "Right");
+    var myLegend = chartB.addLegend(500, 100, 60, 300, "left");
     chartB.draw();
     svgB.append("text")
    .attr("x", chartB._xPixels() + chartB._widthPixels() / 2)
-   .attr("y", chartB._yPixels() - 15)
+   .attr("y", chartB._yPixels() - 50)
    .style("text-anchor", "middle")
    .style("font-family", "Brawler")
    .style("font-weight", "bold")
@@ -146,5 +150,136 @@
             chartB.draw(800);
           });
       });
+
+  $('#factorChart').highcharts({
+        chart: {
+            width: 1000,
+            height: 800,
+            spacingRight: 300,
+            marginRight: 300,
+            type: 'scatter',
+            zoomType: 'xy'
+        },
+        title: {
+            text: 'Bias of Journals Based on Impact Factor and Polarity'
+        },
+        subtitle: {
+            text: 'Blue = Computer Science | Red = Biology | Green = Psychology'
+        },
+        xAxis: {
+            title: {
+                enabled: true,
+                text: 'Impact Factor (IR)'
+            },
+            startOnTick: true,
+            endOnTick: true,
+            showLastLabel: true
+        },
+        yAxis: {
+            title: {
+                text: 'Neutrality'
+            }
+        },
+        legend: {
+            width: 400,
+            x: 0,
+            y: 0,
+            backgroundColor: (Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF',
+            borderWidth: 1
+        },
+        plotOptions: {
+            scatter: {
+                marker: {
+                    radius: 5,
+                    states: {
+                        hover: {
+                            enabled: true,
+                            lineColor: 'rgb(100,100,100)'
+                        }
+                    }
+                },
+                states: {
+                    hover: {
+                        marker: {
+                            enabled: false
+                        }
+                    }
+                },
+                tooltip: {
+                    headerFormat: '<b>{series.name}</b><br>',
+                    pointFormat: '<br> {point.x} IR | {point.y} Polarity'
+                }
+            }
+        },
+        series: [{
+            name: 'ACM',
+            color: clrCS,
+            data: [[2.717, 0.470]]
+        }, {
+            name: 'IEEE',
+            color: clrCS,
+            data: [[6.81, 0.8]]
+        }, {
+            name: 'Data+Science',
+            color: clrCS,
+            data: [[1.314, 0.8]]
+        }, {
+            name: 'Journal Virology',
+            color: clrBio,
+            data: [[4.648, 0.15]]
+        }, {
+            name: 'Science Direct',
+            color: clrBio,
+            data: [[1.647, 0.2667]]
+        }, {
+            name: 'Journal of Biological Chemistry',
+            color: clrBio,
+            data: [[4.651, 0.8]]
+        }, {
+            name: 'CABI',
+            color: clrBio,
+            data: [[0.327, 0.8]]
+        }, {
+            name: 'Oxford Journal',
+            color: clrBio,
+            data: [[4.984, 0.2]]
+        }, {
+            name: 'New England Journal of Medicine',
+            color: clrBio,
+            data: [[54.42, 0.175]]
+        }, {
+            name: 'Evolutioary Psychology',
+            color: clrPsy,
+            data: [[1.704, 0.55]]
+        }, {
+            name: 'Cornell Journal',
+            color: clrPsy,
+            data: [[0.47, 0.8]]
+        }, {
+            name: 'American Psychology Association',
+            color: clrPsy,
+            data: [[5.45, 0.633]]
+        }, {
+            name: 'Journal of Abnormal Psychology',
+            color: clrPsy,
+            data: [[5.382, 0.8]]
+        }, {
+            name: 'Psychological Review',
+            color: clrPsy,
+            data: [[9.212, 0.5667]]
+        }, {
+            name: 'Personality and Social Psychology Review',
+            color: clrPsy,
+            data: [[8.195, 0.8]]
+        }, {
+            name: 'Journal of Applied Psychology',
+            color: clrPsy,
+            data: [[3.977, 0.765]]
+        }, {
+            name: 'Annual Review of Psychology',
+            color: clrPsy,
+            data: [[22.45, 0.8]]
+        }]
+    });
 
 

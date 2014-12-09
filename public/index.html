@@ -30,7 +30,7 @@
         We created a research paper data set by aggregating articles for areas of academia including Computer Science, Biology, and Psychology. For each academic area, we have three subcategories which split the data further. Afterwards, we applied sentiment analysis and similarity algorithms to the papers to draw comparisons between the subjects.
     </p>
 
-    <h1>Neutrality Among Academic Areas</h1>
+    <h1>Neutrality in Academic Areas</h1>
     <line class = "other"></line>
     <p>    
         Our goal was to see which academic area is the most neutral in terms of written style. Using sentiment analysis tools, we calculated an average neutrality score on a scale from 0 to 1 where 0 represents the least neutral and 1 represents the most neutral. We ran analysis on both the full texts of the research papers for each category as well as a summarized version of the text.
@@ -58,12 +58,11 @@
     </p>
     <div id = "map_election"></div>
     -->
-    <h1>Relationships</h1>
+    <h1>Journals and Impact Factors</h1>
     <line class = "other"></line>
-    <p>This is under construction to be added by Shantanu using the similarity tools.</p>
-    <div id="chord"></div>
+    <p>To go deeper into our data set, we looked into the impact factor (IF) of the academic journal hosting the article. The impact factor is a measure that illustrates the number of citations to articles published in the journal. We used this factor and compared it with the polarity of the article to detect potential bias in journals.</p>
+    <div id="factorChart"></div>
     <p>
-        Relationships and similarities analysis would go here.
     </p>
 
     <h1>Future Work</h1>
@@ -83,4 +82,5 @@
 <script src = "scripts/mapController.js"></script>
 <script src = "scripts/chordController.js"></script>
 <script src = "scripts/dimple.js"></script>
+<script src="http://code.highcharts.com/highcharts.js"></script>
 <script src = "scripts/barcharcontroller.js"></script>
