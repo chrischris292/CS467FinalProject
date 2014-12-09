@@ -3,8 +3,8 @@
     <!-- Basic Page Needs -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>CS 467 Final Project</title>
-    <meta name="description" content="A simple guide to responsive design.">
+    <title>Academic Research Paper Data Visualization</title>
+    <meta name="description" content="A CS 467 Final Project Visualizing Academic Research Papers">
 
     <!-- Mobile Specific Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -17,47 +17,52 @@
     <div class = "container">
         <h1>Academic Research Paper Data Visualization</h1>
         <line></line>
-        <div class = "subTitle">Statistical Analysis of Academia</div>
+        <div class = "subTitle">Visualizing Written Style and Potential Bias</div>
         <div class = "authors"> Christopher Chan, William Xie, Shantanu Dev, Vinh Ha</div>
-        <div class = "date">CS 467</div>
-
+        <div class = "date">CS 467- Social Visualization</div>
     </div>
 </div>
 <div class = "container">
     <h1>Introduction</h1>
     <line class = "other"></line>
-
     <p>    
-        We created an academia article data set by manually going into websites and downloading their papers. After, we applied sentiment analysis to the papers. By the end of our data collection, we created a data set that holds a vast amount of data for us to visualize down below. 
-
+        Inspired by the research papers that we critiqued in class, we set out with the goal to discover potential patterns or biases in different areas of academia. 
+        We created a research paper data set by aggregating articles for areas of academia including Computer Science, Biology, and Psychology. For each academic area, we have three subcategories which split the data further. Afterwards, we applied sentiment analysis and similarity algorithms to the papers to draw comparisons between the subjects.
     </p>
 
-    <h1>Polarity Among Majors</h1>
+    <h1>Neutrality Among Academic Areas</h1>
     <line class = "other"></line>
-
     <p>    
-        We took data from our article data set and aggregated sentiment analysis scores of each paper. Our goal was to see which major 
-        has the most emotion in what is supposed to be an unbiased research paper. 
+        Our goal was to see which academic area is the most neutral in terms of written style. Using sentiment analysis tools, we calculated an average neutrality score on a scale from 0 to 1 where 0 represents the least neutral and 1 represents the most neutral. We ran analysis on both the full texts of the research papers for each category as well as a summarized version of the text.
     </p>
-    <div id = "myChart"></div>
-    <p>As we can see above, psychology has the most polar sentiment among majors. 
-    <div id = "bubbleChart"></div>
+    <div id = "neutralChart"></div>
+    <p>
+        In terms of neutrality, we found academic papers in Biology had higher scores compared to Computer Science and Psychology. The summarized versions of the papers resulted in lower neutrality scores overall. This may be attributed to the fact that the summary tools focused on parts of the papers where data was explained rather than given, though it is important to note that not all summary tools are perfect in capturing the ideas behind each paper.
+    </p>
 
+    <p>
+        Along with the neutrality score, there is a polarity score broken down into negative and positive polarity. The scores also range from 0 to 1, where 0 represents the least polar and 1 the most. The sum of the negative and positive polarity scores equal 1. For our analysis, we converted this number to a percentage to more easily compare the difference in sentiment.
+    </p>
+    <div id = "polarChart"></div>
+    <p>
+        ANALYSIS
+    </p>
+    <div id = "bubbleChart"></div>
+    <p>Looking further into the bubble chart, we see that mostly Psychology papers were contained </p>
+    <!--
     <h1>Maps</h1>
     <line class = "other"></line>
     <p>    
         In this section, we plan to visualize which universities release more academia for each section. 
-
     </p>
     </p>
     <div id = "map_election"></div>
-
+    -->
     <h1>Relationships</h1>
-     <line class = "other"></line>
-
+    <line class = "other"></line>
+    <p>This is under construction to be added by Shantanu using the similarity tools.</p>
     <div id="chord"></div>
     <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-
     </p>
 
 

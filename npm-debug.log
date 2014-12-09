@@ -1,0 +1,48 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/bin/npm', 'install', 'require' ]
+info using npm@1.1.4
+info using node@v0.6.12
+verbose config file /home/xie/.npmrc
+verbose config file /usr/etc/npmrc
+verbose config file /usr/share/npm/npmrc
+verbose caching /home/xie/Documents/CS467FinalProject/package.json
+verbose loadDefaults socket.io-chat@0.0.0
+verbose caching /home/xie/Documents/CS467FinalProject/node_modules/scraperjs/package.json
+verbose loadDefaults scraperjs@0.3.0
+verbose caching /home/xie/Documents/CS467FinalProject/node_modules/express/package.json
+verbose loadDefaults express@3.4.8
+verbose from cache /home/xie/Documents/CS467FinalProject/package.json
+verbose readDependencies: using package.json deps
+verbose cache add [ 'require', null ]
+silly cache add: name, spec, args [ undefined, 'require', [ 'require', null ] ]
+verbose parsed url { pathname: 'require', path: 'require', href: 'require' }
+verbose addNamed [ 'require', '' ]
+verbose addNamed [ null, '' ]
+silly name, range, hasData [ 'require', '', false ]
+verbose raw, before any munging require
+verbose url resolving [ 'https://registry.npmjs.org/', './require' ]
+verbose url resolved https://registry.npmjs.org/require
+http GET https://registry.npmjs.org/require
+ERR! Error: failed to fetch from registry: require
+ERR!     at /usr/share/npm/lib/utils/npm-registry-client/get.js:139:12
+ERR!     at cb (/usr/share/npm/lib/utils/npm-registry-client/request.js:31:9)
+ERR!     at Request._callback (/usr/share/npm/lib/utils/npm-registry-client/request.js:136:18)
+ERR!     at Request.callback (/usr/lib/nodejs/request/main.js:119:22)
+ERR!     at Request.<anonymous> (/usr/lib/nodejs/request/main.js:212:58)
+ERR!     at Request.emit (events.js:88:20)
+ERR!     at ClientRequest.<anonymous> (/usr/lib/nodejs/request/main.js:412:12)
+ERR!     at ClientRequest.emit (events.js:67:17)
+ERR!     at HTTPParser.onIncoming (http.js:1261:11)
+ERR!     at HTTPParser.onHeadersComplete (http.js:102:31)
+ERR! You may report this log at:
+ERR!     <http://bugs.debian.org/npm>
+ERR! or use
+ERR!     reportbug --attach /home/xie/Documents/CS467FinalProject/npm-debug.log npm
+ERR! 
+ERR! System Linux 3.10.18
+ERR! command "node" "/usr/bin/npm" "install" "require"
+ERR! cwd /home/xie/Documents/CS467FinalProject
+ERR! node -v v0.6.12
+ERR! npm -v 1.1.4
+ERR! message failed to fetch from registry: require
+verbose exit [ 1, true ]

@@ -1,14 +1,63 @@
-    var svg = dimple.newSvg("#myChart", 700, 600);
-    var data = [
-      { "Major":"Computer Science", "Polarity":.4931034483 },
-      { "Major":"Biology", "Polarity": .2285714 },
-      { "Major":"Pychology", "Polarity":.606666667 }
+    /*var svgBar = dimple.newSvg("#myChart", 590, 400);
+    d3.tsv("../data/example_data.tsv", function (data) {
+      console.log(data);
+      var myChart = new dimple.chart(svgBar, data);
+      myChart.setBounds(60, 30, 510, 330)
+      myChart.addCategoryAxis("x", ["Price Tier", "Channel"]);
+      myChart.addMeasureAxis("y", "Unit Sales");
+      myChart.addSeries("Channel", dimple.plot.bar);
+      myChart.addLegend(65, 10, 510, 20, "right");
+      myChart.draw();
+    });*/
+
+    var svgN = dimple.newSvg("#neutralChart", 700, 600);
+    var dataN = [
+      { "Subject": "Computer Science", "Type": "Full Text", "Avg. Neutrality": 0.493 },
+      { "Subject": "Computer Science", "Type": "Summarized", "Avg. Neutrality": 0.665 },
+      { "Subject": "Biology", "Type": "Full Text", "Avg. Neutrality": 0.729 },
+      { "Subject": "Biology", "Type": "Summarized", "Avg. Neutrality": 0.714 },
+      { "Subject": "Psychology", "Type": "Full Text", "Avg. Neutrality": 0.393 },
+      { "Subject": "Psychology", "Type": "Summarized", "Avg. Neutrality": 0.581 }
     ];
-    var chart = new dimple.chart(svg, data);
-    chart.addCategoryAxis("x", "Major");
-    chart.addMeasureAxis("y", "Polarity");
-    chart.addSeries(null, dimple.plot.bar);
-    chart.draw();
+    var chartN = new dimple.chart(svgN, dataN);
+    chartN.addCategoryAxis("x", ["Subject", "Type"]);
+    chartN.addMeasureAxis("y", "Avg. Neutrality");
+    chartN.addSeries("Type", dimple.plot.bar);
+    chartN.addLegend(200, 40, 510, 20, "right");
+    chartN.draw();
+    svgN.append("text")
+     .attr("x", chartN._xPixels() + chartN._widthPixels() / 2)
+     .attr("y", chartN._yPixels() - 20)
+     .style("text-anchor", "middle")
+     .style("font-family", "Brawler")
+     .style("font-weight", "bold")
+     .text("Neutrality in Academic Research Papers");
+
+    var svgP = dimple.newSvg("#polarChart", 590, 400);
+    var dataP = [
+      { "Subject": "Computer Science", "PolarType": "Negative", "Polar Percentage": 0.362 },
+      { "Subject": "Computer Science", "PolarType": "Positive", "Polar Percentage": 0.638 },
+      { "Subject": "Biology", "PolarType": "Negative", "Polar Percentage": 0.454 },
+      { "Subject": "Biology", "PolarType": "Positive", "Polar Percentage": 0.546 },
+      { "Subject": "Psychology", "PolarType": "Negative", "Polar Percentage": 0.325 },
+      { "Subject": "Psychology", "PolarType": "Positive", "Polar Percentage": 0.675 },
+    ];
+    var chartP = new dimple.chart(svgP, dataP);
+    chartP.setBounds(80, 30, 480, 330)
+    chartP.addPctAxis("x", "Polar Percentage");
+    chartP.addCategoryAxis("y", "Subject");
+    chartP.addSeries("PolarType", dimple.plot.bar);
+    chartP.addLegend(220, 25, 380, 20, "right");
+    chartP.draw();
+    svgP.append("text")
+   .attr("x", chartP._xPixels() + chartP._widthPixels() / 2)
+   .attr("y", chartP._yPixels() - 15)
+   .style("text-anchor", "middle")
+   .style("font-family", "Brawler")
+   .style("font-weight", "bold")
+   .text("Negative and Positive Polarity Percentage");
+  
+
  	/*var svg = dimple.newSvg("#bubbleChart", 700, 600);
     var data = [
       { "Major":"Computer Science", "Polarity":.8, "article" : "Unsupervised and Supervised Machine Learning in User Modeling for Intelligent Learning Environments " },
@@ -31,7 +80,7 @@
     d3.tsv("../data/data.tsv", function (data) {
 
     var chart = new dimple.chart(svg, data);
-    chart.addCategoryAxis("x", "Index");
+    chart.addCategoryAxis("x", ["Index", "NEUTRAL"]);
     chart.addMeasureAxis("y", "POLAR");
     chart.addSeries(["NAME","AUTHORS","LOCATION", "POLAR POS", "POLAR NEG", "Major"], dimple.plot.bubble);
     var myLegend = chart.addLegend(630, 100, 60, 300, "Right");
